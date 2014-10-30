@@ -12,4 +12,3 @@ if [ ! -e $BOOTSTRAP ]; then
     cd task
     BOOTSTRAP="`pwd`/run.sh"
 fi
-. $BOOTSTRAP
